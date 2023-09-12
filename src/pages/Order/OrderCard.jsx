@@ -11,7 +11,7 @@ const Transition = React.forwardRef(function Transition(props, ref) {
 
 const moveToRunnerRequest = (id) => {
     return request({
-        url : `/order-to-runner/${id}`,
+        url : `/order-to-casher/${id}`,
         method : 'patch',
     })
 }
